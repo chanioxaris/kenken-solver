@@ -25,15 +25,22 @@ Each valid solution must follow the below rules:
 
 The input format of text file, used to describe a puzzle is:
 
-> size
-> [Square_indexes1] Cage_operator1 Cage_target1
-> [Square_indexes2] Cage_operator2 Cage_target2
-> [Square_indexes3] Cage_operator3 Cage_target3
-> ...
-> [Square_indexesM] Cage_operatorM Cage_targetM
-
+```
+Puzzle_size
+[Square_indexes1] Cage_operator1 Cage_target1
+[Square_indexes2] Cage_operator2 Cage_target2
+[Square_indexes3] Cage_operator3 Cage_target3
+...
+[Square_indexesM] Cage_operatorM Cage_targetM
+```
 
 For example, the text representing the above puzzle is:
+
+```
+6
+
+```
+
 
 ## Algorithms
 
