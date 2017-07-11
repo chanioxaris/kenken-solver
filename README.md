@@ -34,11 +34,27 @@ Puzzle_size
 [Square_indexesM] Cage_operatorM Cage_targetM
 ```
 
+<br />
+
 For example, the text representing the above puzzle is:
 
 ```
 6
-
+[(0,0),(1,0)] add 11
+[(0,1),(0,2)] div 2
+[(0,3),(1,3)] mult 20
+[(0,4),(0,5),(1,5),(2,5)] mult 6
+[(1,1),(1,2)] sub 3
+[(1,4),(2,4)] div 3
+[(2,0),(2,1),(3,0),(3,1)] mult 240
+[(2,2),(2,3)] mult 6
+[(3,2),(4,2)] mult 6
+[(3,3),(4,3),(4,4)] add 7
+[(3,4),(3,5)] mult 30
+[(4,0),(4,1)] mult 6
+[(4,5),(5,5)] add 9
+[(5,0),(5,1),(5,2)] add 8
+[(5,3),(5,4)] div 2
 ```
 
 
