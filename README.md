@@ -3,7 +3,7 @@
 A program in Python that solves [KenKen puzzles](https://en.wikipedia.org/wiki/KenKen), by representing the game as a Constraint Satisfaction Problem (CSP).
 
 
-## Puzzle presentation
+## Puzzle representation
 
 ### Board
 The KenKen board is represented by a square n-by-n grid of cells. The grid may contain between 1 and n boxes (cages) represented by a heavily outlined perimeter. Each cage will contain in superscript: the target digit value for the cage followed by a mathematical operator. 
