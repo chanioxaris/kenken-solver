@@ -30,9 +30,17 @@ The input format used to describe a puzzle is:
 
 ### Algorithms information
 
-You can select among 5 algorithms to solve a puzzle. These are
+You can select among 5 algorithms to solve a puzzle. These are:
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
 
 ### Algorithms comparison
+
+The below table represents the number of assigments used from each algorithm, to solve different size puzzles.
+
 
 |  Size  |   BT   | BT+MRV |   FC   | FC+MRV |   MAC  | 
 | :----: | :----: | :----: | :----: | :----: | :----: |
