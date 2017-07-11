@@ -23,19 +23,29 @@ Each valid solution must follow the below rules:
 
 ### Input file
 
-The input format used to describe a puzzle is:
+The input format of text file, used to describe a puzzle is:
 
+> size
+> [Square_indexes1] Cage_operator1 Cage_target1
+> [Square_indexes2] Cage_operator2 Cage_target2
+> [Square_indexes3] Cage_operator3 Cage_target3
+> ...
+> [Square_indexesM] Cage_operatorM Cage_targetM
+
+
+For example, the text representing the above puzzle is:
 
 ## Algorithms
 
 ### Algorithms information
 
 You can select among 5 algorithms to solve a puzzle. These are:
-- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
-- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
-- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
-- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
-- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) (command line parameter "BT").
+- Backtracking (command line parameter "BT").
+- Backtracking with Minimum remaining values (command line parameter "BT+MRV").
+- Forward checking (command line parameter "FC").
+- Forward checking with Minimum remaining values (command line parameter "FC+MRV").
+- Maintaining arc consistency (command line parameter "MAC").
+
 
 ### Algorithms comparison
 
