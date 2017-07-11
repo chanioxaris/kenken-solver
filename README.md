@@ -1,3 +1,16 @@
+## Overview
+
+
+## Algorithms comparison
+
+|  Size  |   BT   | BT+MRV |   FC   | FC+MRV |   MAC  | 
+| :----: | :----: | :----: | :----: | :----: | :----: |
+|   3x3  |   10   |   10   |   9    |   11   |   9    |
+|   4x4  |   33   |   24   |   26   |   18   |   19   |  
+|   5x5  |   89   |   55   |   42   |   33   |   26   |  
+|   6x6  |   947  |   215  |   48   |   68   |   73   |  
+|   7x7  |  2600  |   957  |   278  |   320  |   66   |  
+
 ## Usage
 
 For windows based systems
