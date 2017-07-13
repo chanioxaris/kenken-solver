@@ -3,16 +3,6 @@
 from utils import argmin_random_tie, count, first
 import search
 
-from collections import defaultdict
-from functools import reduce
-
-import itertools
-import re
-import random
-
-
-counterAssignments = 0
-
 
 class CSP(search.Problem):
 
@@ -263,8 +253,6 @@ def backtracking_search(csp,
         var = select_unassigned_variable(assignment, csp)
         for value in order_domain_values(var, assignment, csp):
             if 0 == csp.nconflicts(var, value, assignment):
-                global counterAssignments
-                counterAssignments += 1
                 csp.assign(var, value, assignment)
                 removals = csp.suppose(var, value)
                 if inference(csp, var, value, assignment, removals):
