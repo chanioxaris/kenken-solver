@@ -1,6 +1,6 @@
 ## Overview
 
-A program in Python that solves [KenKen puzzles](https://en.wikipedia.org/wiki/KenKen), by representing the game as a Constraint Satisfaction Problem (CSP).
+A program in Python 3.6 that solves [KenKen puzzles](https://en.wikipedia.org/wiki/KenKen), by representing the game as a Constraint Satisfaction Problem (CSP).
 
 
 ## Puzzle representation
