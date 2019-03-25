@@ -8,7 +8,7 @@ A program in Python 3.6 that solves [KenKen puzzles](https://en.wikipedia.org/wi
 ### Board
 The KenKen board is represented by a square n-by-n grid of cells. The grid may contain between 1 and n boxes (cages) represented by a heavily outlined perimeter. Each cage will contain in superscript: the target digit value for the cage followed by a mathematical operator. 
 
-![kenken](https://github.com/chanioxaris/KenKen-Solver/blob/master/img/kenken.png)
+![kenken](https://github.com/chanioxaris/kenken-solver/blob/master/img/kenken.png)
 
 ### Constraints
 
